@@ -73,33 +73,6 @@ class App extends Component{
                     </TouchableOpacity>
                     )}
                 </View>
-                {/* <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "red"}}>
-                    <Text style={{flex:1, textAlign:"center"}}>{this.state.calculator}</Text>
-                </View>
-                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "pink"}}>
-                    <AppButton onPress={() => this.doSomething()} title="7" />
-                    <AppButton onPress={() => this.doSomething(this.title)} title="8" />
-                    <AppButton onPress={() => this.doSomething(this.title)} title="9" />
-                    <AppButton onPress={() => this.doSomething(this.title)} title="+" />
-                </View>
-                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "lightblue"}}>
-                    <AppButton title="4" />
-                    <AppButton title="5" />
-                    <AppButton title="6" />
-                    <AppButton title="-" />
-                </View>
-                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "purple"}}>
-                    <AppButton title="1" />
-                    <AppButton title="2" />
-                    <AppButton title="3" />
-                    <AppButton title="x" />
-                </View>
-                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "grey"}}>
-                    <AppButton title="0" />
-                    <AppButton title="." />
-                    <AppButton title="=" />
-                    <AppButton title="/" />
-                </View> */}
                 <StatusBar style="auto" />
             </View>
 
@@ -149,3 +122,35 @@ calcButtonText: {
 })
 
 export default App
+
+
+
+
+
+{/* <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "red"}}>
+                    <Text style={{flex:1, textAlign:"center"}}>{this.state.calculator}</Text>
+                </View>
+                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "pink"}}>
+                    <AppButton onPress={() => this.doSomething()} title="7" />
+                    <AppButton onPress={() => this.doSomething(this.title)} title="8" />
+                    <AppButton onPress={() => this.doSomething(this.title)} title="9" />
+                    <AppButton onPress={() => this.doSomething(this.title)} title="+" />
+                </View>
+                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "lightblue"}}>
+                    <AppButton title="4" />
+                    <AppButton title="5" />
+                    <AppButton title="6" />
+                    <AppButton title="-" />
+                </View>
+                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "purple"}}>
+                    <AppButton title="1" />
+                    <AppButton title="2" />
+                    <AppButton title="3" />
+                    <AppButton title="x" />
+                </View>
+                <View style={{flexDirection: "row", width: fixedWidth, backgroundColor: "grey"}}>
+                    <AppButton title="0" />
+                    <AppButton title="." />
+                    <AppButton title="=" />
+                    <AppButton title="/" />
+                </View> */}
