@@ -42,8 +42,7 @@ class App extends Component{
             Vibration.vibrate(35);
             if(this.curNum == this.state.curNum){
                 this.setState({curNum: this.state.curNum.toString()})
-            }
-            
+            } 
             //this.setState({curNum: parseInt(this.state.newNum + this.state.operator + this.state.curNum)})
         }
         else{
@@ -55,8 +54,7 @@ class App extends Component{
             else{
                 var temp = this.state.curNum.toString() + toUse
                 this.setState({curNum: temp})
-            }
-            
+            }   
         }
     }
 
@@ -74,9 +72,7 @@ class App extends Component{
                     )}
                 </View>
                 <StatusBar style="auto" />
-            </View>
-
-            
+            </View>        
     )}
 }
 
@@ -99,7 +95,7 @@ calcButton:{
     justifyContent: 'center',
     minWidth: '24%',
     minHeight: '54%',
-    flex: 2,
+    flex: 1,
 },
 calcButtonText: {
     color: "#000",
